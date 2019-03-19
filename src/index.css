@@ -12,3 +12,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 300px;
+}
+
+.chat {
+  max-height: 80vh;
+  overflow: auto;
+  border: 1px solid black;
+}
+
+.date {
+  color: grey;
+  font-size: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+}
